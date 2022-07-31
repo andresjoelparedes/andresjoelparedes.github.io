@@ -214,20 +214,21 @@
         /* *********************/
         /* seccion S E R V I C I O S */
         /* *********************/
-        
         #servicios {
-            padding: 100px 15px;
+            background: linear-gradient( rgba(168, 142, 161, 0.582), rgba(109, 88, 88, 0.7)), url("proximamente5.jpg");
+            background-size: cover;
+            background-position: center;
             text-align: center;
-            background-color: #f3f3f3;
+            height: 100vh;
         }
         
         #servicios .titulo-seccion {
             text-align: center;
             font-size: 22px;
             text-transform: uppercase;
-            color: #111135;
+            color: #dfd9de;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #e4e2e4;
             text-decoration-thickness: 5px;
         }
         
@@ -356,7 +357,35 @@
             background-color: #fff;
             width: 50%;
             height: 6px;
-            animation: progreso4 2s forwards;
+            animation: progreso5 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso6 {
+            background-color: #fff;
+            width: 70%;
+            height: 6px;
+            animation: progreso6 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso7 {
+            background-color: #fff;
+            width: 40%;
+            height: 6px;
+            animation: progreso7 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso8 {
+            background-color: #fff;
+            width: 50%;
+            height: 6px;
+            animation: progreso8 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso9 {
+            background-color: #fff;
+            width: 50%;
+            height: 6px;
+            animation: progreso9 2s forwards;
         }
         
         @keyframes progreso1 {
@@ -373,7 +402,7 @@
                 width: 0;
             }
             100% {
-                width: 90%;
+                width: 60%;
             }
         }
         
@@ -382,7 +411,7 @@
                 width: 0;
             }
             100% {
-                width: 90%;
+                width: 80%;
             }
         }
         
@@ -391,11 +420,47 @@
                 width: 0;
             }
             100% {
-                width: 85%;
+                width: 80%;
             }
         }
 
         @keyframes progreso5 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 50%;
+            }
+        }
+
+        @keyframes progreso6 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 70%;
+            }
+        }
+
+        @keyframes progreso7 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 40%;
+            }
+        }
+
+        @keyframes progreso8 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 50%;
+            }
+        }
+
+        @keyframes progreso9 {
             0% {
                 width: 0;
             }

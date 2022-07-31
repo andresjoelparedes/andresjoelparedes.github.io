@@ -32,6 +32,9 @@ function efectoHabilidades() {
         document.getElementById("bd").classList.add("barra-progreso3");
         document.getElementById("SQL").classList.add("barra-progreso4");
         document.getElementById("C#").classList.add("barra-progreso5");
+        document.getElementById("VB6").classList.add("barra-progreso6");
+        document.getElementById("UML").classList.add("barra-progreso7");
+        document.getElementById("Git").classList.add("barra-progreso8");
+        document.getElementById("JAVA").classList.add("barra-progreso9");
     }
-
 }
