@@ -138,10 +138,11 @@
         /* *********************/
         
         #sobremi {
-            max-width: 1100px;
+            background: linear-gradient( #802626cc, rgba(33, 16, 16, 0.8)), url("codigo2.webp");
+            max-width: 1500px;
             margin: auto;
-            padding: 100px 15px;
-            color: #111135;
+            padding: 100px 0;
+            color: #e1e1e4;
             display: flex;
         }
         
@@ -154,7 +155,7 @@
             padding: 20px; 
             width: 100%;
             border-radius: 20px;
-            background-color: #f3f3f3;
+            background-color: #7e1131;
         }
         
         #sobremi .sobremi {
@@ -164,7 +165,7 @@
         #sobremi .sobremi .titulo-seccion {
             font-size: 22px;
             text-transform: uppercase;
-            color: #111135;
+            color: #cacad1;
             text-decoration: underline;
             text-decoration-color: #d3d3d3;
             text-decoration-thickness: 5px;
@@ -192,30 +193,30 @@
         #sobremi .sobremi p {
             font-size: 14px;
             line-height: 25px;
-            color: #565656;
+            color: #f3ebeb;
             margin-bottom: 12px;
         }
         
         #sobremi .sobremi a {
             display: inline-block;
             text-decoration: none;
-            color: #000;
+            color: rgb(230, 221, 221);
             border-radius: 30px;
-            border: 1px solid #000;
+            border: 1px solid rgb(167, 159, 159);
             padding: 10px 20px;
             margin-top: 30px;
             transition: .5s;
         }
         
         #sobremi .sobremi a:hover {
-            background-color: #31111a;
+            background-color: #25be06;
             color: #fff;
         }
         /* *********************/
         /* seccion S E R V I C I O S */
         /* *********************/
         #servicios {
-            background: linear-gradient( rgba(168, 142, 161, 0.582), rgba(109, 88, 88, 0.7)), url("proximamente5.jpg");
+            background: linear-gradient( rgba(12, 10, 12, 0.582), rgba(41, 35, 35, 0.7)), url("proximamente6.webp");
             background-size: cover;
             background-position: center;
             text-align: center;
@@ -473,32 +474,34 @@
         /* *********************/
 
         #portfolio {
-            max-width: 1100px; 
+            background: linear-gradient( #6f868623, rgba(75, 88, 93, 0.959)), url("img.png");
+            display: flex;
+            max-width: 2000px; 
             padding: 100px 0;
             margin: auto;
+            flex-wrap: wrap;
         }
         
         #portfolio .titulo-seccion {
-            text-align: center; 
+            text-align: center center; 
             font-size: 22px;
             text-transform: uppercase;
-            color: #0b0b11;
-            text-decoration: underline;
+            color: #e3e3f1;
+            text-decoration: none;
             text-decoration-color: #2e2424e5;
             text-decoration-thickness: 5px;
         }
         
         #portfolio .fila {
-            display: flex;
             justify-content: space-between;
-            margin: 30px 0;
+            margin: 60px 0;           
         }
         
         #portfolio .fila .proyecto {
             max-width: 450px;
             border: 1px solid rgb(0, 0, 0);
             margin: 0 10px;
-            position: relative;
+            position:relative;
             overflow: hidden;
         }
         
@@ -516,7 +519,7 @@
         }
         
         #portfolio .fila .proyecto .info {
-            position: absolute;
+            position:absolute;
             left: 0px;
             background-color: rgba(0, 0, 0, 0.8);
             color: #ebe1e49a;
