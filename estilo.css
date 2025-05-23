@@ -659,6 +659,7 @@
                 top: 48px;
                 left: 0;
                 padding: 10px 0;
+                border-bottom: var(--primary) solid;
             }
             nav.responsive ul {
                 display: block !important;
